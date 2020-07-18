@@ -170,7 +170,8 @@ footer nav a {
 /* I used flex on the nav bar here to get the spacing I needed w/o needing to use inline-block and a bunch of padding.  */
 
 .top_nav li {
-    float: right;
+    display: flex;
+    flex-direction: row;
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 1rem;
