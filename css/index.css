@@ -145,14 +145,130 @@ footer nav a {
     text-decoration: none;
 }
 
+/* General Styles */
+
+.container {
+    padding-top: 2em;
+}
 
 /* Top Section Styles */
+.nav_sec {
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
 
+}
 .top_nav {
     text-decoration: none;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
+
+/* I used flex on the nav bar here to get the spacing I needed w/o needing to use inline-block and a bunch of padding.  */
+
+.top_nav li {
+    float: right;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+
 
 .top_nav a {
     text-decoration: none !important;
+}
+
+/* Jumbo Img Section */
+.img_sec {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.jumboImg {
+    width: 60vw;
+}
+
+/* Box Colors */
+
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+.boxTen{
+    background-color: dodgerblue !important;
+}
+
+/* About Page Styles */
+
+button {
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.about_text p{
+    line-height: 2em;
+}
+
+hr {
+    border: 1px dashed black;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service_item {
+    width: 20rem;
+    padding-top: 2rem;
+}
+
+.row {
+    width: 100%;
+}
+/* Placing each pair of serivces in a row, giving that row 100% width and the cards a defined width goes a long way towards getting the 
+    look we're going for. For the love of GOd though, GIVE ME BOOTSTRAP!!!! lol
+*/
+
+
+.wrk_together {
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
