@@ -144,3 +144,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* Top Section Styles */
+
+.top_nav {
+    text-decoration: none;
+    list-style: none;
+}
+
+.top_nav a {
+    text-decoration: none !important;
+}
